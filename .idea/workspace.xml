@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="47a93d7f-4c20-4a51-91ca-b95624038d91" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="TestMaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,8 +64,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -730,7 +729,7 @@
       <workItem from="1492569935881" duration="3922000" />
       <workItem from="1493964887598" duration="721000" />
       <workItem from="1494207108567" duration="14000" />
-      <workItem from="1494207174570" duration="6887000" />
+      <workItem from="1494207174570" duration="6936000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1492570029869</created>
@@ -781,11 +780,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494222897522</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="socket">
+      <created>1494222974597</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1494222974597</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12912000" />
+    <option name="totallyTimeSpent" value="12961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="220" y="246" width="1356" height="806" extended-state="0" />
@@ -1094,8 +1100,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
