@@ -4,37 +4,38 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * Hello world!
+ * Created by linux on 17-5-8.
  */
 public class Client {
     public static void main(String[] args) {
 
         try {
-            ServerSocket server = new ServerSocket(8000);
-            Socket clientSocket = server.accept();
-            BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-            PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+            Socket scoket = new Socket("127.0.0.1", 8000);
+            BufferedReader in = new BufferedReader(new InputStreamReader(scoket.getInputStream()));
+            PrintWriter os = new PrintWriter(scoket.getOutputStream());
             BufferedReader sin = new BufferedReader(new InputStreamReader(System.in));
             String line = sin.readLine();
-            String request, response;
             while (!line.equals("bye")) {
-                out.println(line);
-                out.flush();
-                System.out.println("Server:" + line);
-                System.out.println("Client:" + in.readLine());
+                os.println(line);
+                os.flush();
+
+                System.out.println("Client:" + line);
+                System.out.println("Server:" + in.readLine());
+
                 line = sin.readLine();
             }
+
+            scoket.close();
             in.close();
-            out.close();
-            clientSocket.close();
-            server.close();
+            os.close();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
         }
+
+
     }
 }
