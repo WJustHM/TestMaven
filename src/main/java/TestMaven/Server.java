@@ -17,7 +17,7 @@ public class Server {
             ServerSocket server = new ServerSocket(8000);
             Socket clientSocket = server.accept();
             BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-            PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+            PrintWriter out = new PrintWriter(clientSocket.getOutputStream());
             BufferedReader sin = new BufferedReader(new InputStreamReader(System.in));
             String line = sin.readLine();
             while (!line.equals("bye")) {
