@@ -35,7 +35,5 @@ public class Client {
             e.printStackTrace();
         } finally {
         }
-
-
     }
 }
