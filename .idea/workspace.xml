@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a93d7f-4c20-4a51-91ca-b95624038d91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bijiejar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestMaven.iml" afterPath="$PROJECT_DIR$/TestMaven.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestSocket/Client.java" afterPath="$PROJECT_DIR$/src/main/java/TestSocket/Client.java" />
     </list>
     <ignored path="TestMaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -773,7 +770,7 @@
       <workItem from="1494207174570" duration="17520000" />
       <workItem from="1494293500366" duration="4161000" />
       <workItem from="1494379813174" duration="10000" />
-      <workItem from="1497333492632" duration="184000" />
+      <workItem from="1497333492632" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1492570029869</created>
@@ -838,11 +835,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494223023091</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bijie">
+      <created>1497333688381</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497333688381</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27900000" />
+    <option name="totallyTimeSpent" value="27954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="407" y="109" width="1233" height="762" extended-state="0" />
@@ -888,7 +892,8 @@
     <MESSAGE value="com" />
     <MESSAGE value="comew" />
     <MESSAGE value="socket" />
-    <option name="LAST_COMMIT_MESSAGE" value="socket" />
+    <MESSAGE value="bijie" />
+    <option name="LAST_COMMIT_MESSAGE" value="bijie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
